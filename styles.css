@@ -6,6 +6,7 @@ body {
   font-family: 'Inter', Arial, sans-serif;
   line-height: 1.5;
   scroll-behavior: smooth;
+  margin: 0
 }
 
 #navbar {
@@ -65,9 +66,13 @@ header {
 
 #main-doc {
   position: absolute;
-  margin-left: 310px;
-  padding: 20px;
+  margin-left: 300px;
   margin-bottom: 110px;
+}
+
+section {
+  border-bottom: solid 1px;
+  padding: 20px
 }
 
 section article {
