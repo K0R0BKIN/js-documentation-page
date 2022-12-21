@@ -104,7 +104,7 @@ main a {
   color: inherit;
 }
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 800px) {
   /* For mobile phones: */
   body {
     margin: 0;
