@@ -29,6 +29,7 @@ header {
 
 #navbar header {
   border-bottom: solid 1px;
+  padding: 10px;
 }
 
 #main-doc header {
@@ -37,8 +38,9 @@ header {
 }
 
 #navbar ul {
-  height: 88%;
-  padding: 0;
+  height: 100%;
+  padding: 10px 0;
+  margin: 0;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -96,14 +98,18 @@ main a {
 
 @media only screen and (max-width: 815px) {
   /* For mobile phones: */
+  body {
+    margin: 0;
+  }
+  
   #navbar ul {
-    border: 1px solid;
-    height: 207px;
+    height: 190px;
+    border-bottom: solid 1px;
   }
 
   #navbar {
     background-color: white;
-    position: absolute;
+    position: static;
     top: 0;
     padding: 0;
     margin: 0;
@@ -111,13 +117,15 @@ main a {
     max-height: 275px;
     border: none;
     z-index: 1;
-    border-bottom: 2px solid;
+  }
+
+  #navbar header {
+    text-align: left;
   }
 
   #main-doc {
-    position: relative;
     margin-left: 0px;
-    margin-top: 270px;
+    margin-top: 25px;
   }
 }
 
