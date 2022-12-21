@@ -76,6 +76,10 @@ section article {
   font-size: 0.96em;
 }
 
+section ul {
+  padding: 0;
+}
+
 section li {
   margin: 15px 0px 0px 20px;
 }
